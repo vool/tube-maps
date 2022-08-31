@@ -1,0 +1,224 @@
+{
+  "stations": {
+    "Tralee": {
+      "label": "Tralee Casement station"
+    },
+    "BreweryRoad": {
+      "label": "Brewery Road"
+    },
+    "RockStreet": {
+      "label": "Rock Street"
+    },
+    "ConnollyPark": {
+      "label": "Connolly Park"
+    },
+    "BrendansPark": {
+      "label": "Brendans Park"
+    },
+    "GortNaGreine": {
+      "label": "Gort Na Greine"
+    },
+    "Mounthawk": {
+      "label": "Mounthawk"
+    },
+    "Spa": {
+      "label": "Spa (not open yet)"
+    },
+    "CottersBend": {
+      "label": "Cotters Bend"
+    },
+    "Kilfenora": {
+      "label": "Kilfenora"
+    },
+    "PumpHouse": {
+      "label": "Pump House"
+    },
+    "IslandView": {
+      "label": "Island View"
+    },
+    "FenitNS": {
+      "label": "School"
+    },
+    "Fenit": {
+      "label": "Fenit"
+    }
+  },
+  "lines": [
+    {
+      "name": "TraleeFenitTodo",
+      "color": "#b3b3b3",
+      "shiftCoords": [0, 0],
+      "nodes": [{
+          "coords": [-22, 22]
+        },
+        {
+          "coords": [-26, 26]
+        },
+        {
+          "coords": [-28, 27]
+        },
+        {
+          "coords": [-34, 27]
+        },
+        {
+          "coords": [-44, 27]
+        }
+      ]
+    },
+    {
+      "name": "TraleeFenit1",
+      "color": "#6b8e23",
+      "shiftCoords": [0, 0],
+      "nodes": [{
+          "coords": [0, 0],
+          "name": "Tralee",
+          "marker": "interchange",
+          "canonical": true,
+          "labelPos": "SE"
+        },
+        {
+          "coords": [-4, 4]
+        },
+        {
+          "coords": [-8, 8],
+          "name": "RockStreet",
+          "labelPos": "sw",
+          "marker": "interchange"
+        },
+        {
+          "coords": [-12, 12],
+          "name": "ConnollyPark",
+          "labelPos": "sw"
+        },
+        {
+          "coords": [-13, 13],
+          "name": "BrendansPark",
+          "labelPos": "NE"
+        },
+        {
+          "coords": [-16, 16],
+          "name": "GortNaGreine",
+          "labelPos": "ne"
+        },
+        {
+          "coords": [-22, 22],
+          "name": "Mounthawk",
+          "labelPos": "ne",
+          "marker": "interchange"
+        }
+      ]
+    },
+    {
+      "name": "TraleeFenit2",
+      "color": "#6b8e23",
+      "shiftCoords": [0, 0],
+      "nodes": [
+        {
+          "coords": [-44, 27]
+        },
+        {
+          "coords": [-48, 27]
+        },
+        {
+          "coords": [-50, 26]
+        },
+        {
+          "coords": [-52, 25]
+        },
+        {
+          "coords": [-55, 25],
+          "name": "Spa",
+          "labelPos": "S",
+          "marker": "interchange"
+        },
+        {
+          "coords": [-60, 25]
+        },
+        {
+          "coords": [-62, 26]
+        },
+        {
+          "coords": [-64, 27]
+        },
+        {
+          "coords": [-66, 27]
+        },
+        {
+          "coords": [-68, 27]
+        },
+        {
+          "coords": [-70, 26],
+          "name": "CottersBend",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [-72, 24]
+        },
+        {
+          "coords": [-74, 23]
+        },
+        {
+          "coords": [-76, 23],
+          "name": "Kilfenora",
+          "labelPos": "S",
+          "marker": "interchange"
+        },
+        {
+          "coords": [-85, 23],
+          "name": "PumpHouse",
+          "labelPos": "S"
+        },
+
+        {
+          "coords": [-87, 24]
+        },
+        {
+          "coords": [-89, 26]
+        },
+        {
+          "coords": [-91, 27]
+        },
+        {
+          "coords": [-93, 27]
+        },
+        {
+          "coords": [-95, 26]
+        },
+        {
+          "coords": [-97, 24],
+          "name": "IslandView",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [-99, 22],
+          "name": "FenitNS",
+          "labelPos": "SE"
+        },
+        {
+          "coords": [-100, 20]
+        },
+        {
+          "coords": [-100, 18],
+          "name": "Fenit",
+          "labelPos": "S",
+          "marker": "interchange"
+        }
+      ]
+    },
+    {
+      "name": "BigRiver",
+      "color": "#6b8e23",
+      "shiftCoords": [-4, 4],
+      "nodes": [{
+          "coords": [0, 0]
+        },
+        {
+          "coords": [4, 4],
+          "name": "BreweryRoad",
+          "canonical": true,
+          "labelPos": "SE"
+        }
+      ]
+    }
+  ]
+}

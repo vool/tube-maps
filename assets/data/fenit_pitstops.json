@@ -1,0 +1,106 @@
+{
+  "stations": {
+    "Odonnells": {
+      "label": "O Donnells"
+    },
+    "Oyster": {
+      "label": "Oyster"
+    },
+    "SpaSeafood": {
+      "label": "Spa Seafood"
+    },
+    "Tankard": {
+      "label": "Tankard"
+    },
+    "Navo": {
+      "label": "Navo"
+    },
+    "Forge": {
+      "label": "Forge Pizza"
+    },
+    "BeachCafe": {
+      "label": "Beach Cafe"
+    },
+    "WestEnd": {
+      "label": "West End"
+    },
+    "Fenit": {
+      "label": ""
+    },
+    "Tralee": {
+      "label": ""
+    }
+
+  },
+  "lines": [{
+    "name": "TraleeFenit",
+    "color": "#6b8e23",
+    "shiftCoords": [0, 0],
+    "nodes": [{
+        "coords": [2, -2],
+        "name": "Tralee",
+        "marker": "interchange",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-5, 5],
+        "name": "Odonnells",
+        "labelPos": "ne"
+      },
+      {
+        "coords": [-7, 6]
+      },
+      {
+        "coords": [-12, 6],
+        "name": "Oyster",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-14, 6],
+        "name": "SpaSeafood",
+        "labelPos": "S"
+      },
+      {
+        "coords": [-20, 6],
+        "name": "Tankard",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-22, 6]
+      },
+      {
+        "coords": [-28, 6],
+        "name": "Navo",
+        "labelPos": "S"
+      },
+      {
+        "coords": [-29, 6],
+        "name": "Forge",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-31, 5]
+      },
+      {
+        "coords": [-32, 4]
+      },
+      {
+        "coords": [-33, 2],
+        "name": "WestEnd",
+        "labelPos": "W"
+      },
+      {
+        "coords": [-33, -1],
+        "name": "BeachCafe",
+        "labelPos": "E"
+      },
+      {
+        "coords": [-33, -3],
+        "name": "Fenit",
+        "labelPos": "E",
+        "marker": "interchange"
+      }
+
+    ]
+  }]
+}
