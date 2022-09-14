@@ -1,0 +1,77 @@
+{
+  "stations": {
+    "Stokers": {
+      "label": "Stokers Lodge"
+    },
+    "Odonnells": {
+      "label": "O'Donnells"
+    },
+    "Oyster": {
+      "label": "Oyster"
+    },
+    "Tankard": {
+      "label": "Tankard"
+    },
+    "WestEnd": {
+      "label": "West End"
+    }
+  },
+  "lines": [{
+    "name": "TraleeFenit",
+    "color": "#6b8e23",
+    "shiftCoords": [0, 0],
+    "nodes": [{
+        "coords": [2, -2],
+        "name": "Stokers",
+        "marker": "interchange",
+        "labelPos": "NE"
+      },
+      {
+        "coords": [-5, 5],
+        "name": "Odonnells",
+        "labelPos": "ne"
+      },
+      {
+        "coords": [-7, 6]
+      },
+      {
+        "coords": [-12, 6],
+        "name": "Oyster",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-14, 6]
+      },
+      {
+        "coords": [-20, 6]
+      },
+      {
+        "coords": [-24, 6],
+        "name": "Tankard",
+        "labelPos": "N"
+      },
+      {
+        "coords": [-28, 6]
+      },
+      {
+        "coords": [-29, 6]
+      },
+      {
+        "coords": [-31, 5]
+      },
+      {
+        "coords": [-32, 4]
+      },
+      {
+        "coords": [-33, 2]
+      },
+      {
+        "coords": [-33, -1],
+        "name": "WestEnd",
+        "labelPos": "W",
+        "marker": "interchange"
+      }
+
+    ]
+  }]
+}
