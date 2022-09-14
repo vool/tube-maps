@@ -9,6 +9,10 @@ module.exports = function (eleventyConfig) {
     "./node_modules/d3/dist/d3.min.js": "/assets/js/d3.min.js"
   });
 
+  eleventyConfig.addPassthroughCopy({
+    "./node_modules/mvp.css/mvp.css": "/assets/css/mvp.css"
+  });
+
   return {
     passthroughFileCopy: true,
   }
