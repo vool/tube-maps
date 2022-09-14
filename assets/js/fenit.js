@@ -24,8 +24,8 @@ d3.json("/assets/data/fenit.json").then(function (data) {
     zoom = d3.zoom().scaleExtent([0, 5]).on("zoom", zoomed);
 
     var zoomContainer = svg.call(zoom);
-    var initialScale = 0.75;
-    var initialTranslate = [-500, -300];
+    var initialScale = 0.60;
+    var initialTranslate = [-100, 0];
 
     zoom.scaleTo(zoomContainer, initialScale);
     zoom.translateTo(
