@@ -21,6 +21,12 @@
     "Mounthawk": {
       "label": "Mounthawk"
     },
+    "KnockanishEast": {
+      "label": ""
+    },
+    "KnockanishWest": {
+      "label": ""
+    },
     "Spa": {
       "label": "Spa (not open yet)"
     },
@@ -99,10 +105,14 @@
           "coords": [-28, 27]
         },
         {
-          "coords": [-34, 27]
+          "coords": [-34, 27],
+          "name": "KnockanishEast",
+          "labelPos": "S"
         },
         {
-          "coords": [-44, 27]
+          "coords": [-44, 27],
+          "name": "KnockanishWest",
+          "labelPos": "N"
         },
         {
           "coords": [-48, 27]
