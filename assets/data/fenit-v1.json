@@ -48,7 +48,21 @@
       "name": "TraleeFenitTodo",
       "color": "#b3b3b3",
       "shiftCoords": [0, 0],
-      "nodes": [
+      "nodes": [{
+          "coords": [-22, 22]
+        },
+        {
+          "coords": [-26, 26]
+        },
+        {
+          "coords": [-28, 27]
+        },
+        {
+          "coords": [-34, 27]
+        },
+        {
+          "coords": [-44, 27]
+        }
       ]
     },
     {
@@ -91,16 +105,14 @@
           "name": "Mounthawk",
           "labelPos": "ne",
           "marker": "interchange"
-        },
-        {
-          "coords": [-26, 26]
-        },
-        {
-          "coords": [-28, 27]
-        },
-        {
-          "coords": [-34, 27]
-        },
+        }
+      ]
+    },
+    {
+      "name": "TraleeFenit2",
+      "color": "#6b8e23",
+      "shiftCoords": [0, 0],
+      "nodes": [
         {
           "coords": [-44, 27]
         },
