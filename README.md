@@ -3,6 +3,7 @@ Some tube maps built with [d3-tube-map](https://github.com/johnwalley/d3-tube-ma
 
 * Tralee-Fenit Greenway
 * Tralee-Fenit Greenway Bars and Restaurants
+* Tralee Cycle Network
 
 View live at [tubemaps.vool.ie](//tubemaps.vool.ie)
 

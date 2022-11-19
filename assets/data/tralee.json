@@ -1,0 +1,928 @@
+{
+  "stations": {
+    "Tralee": {
+      "label": "Station"
+    },
+    "CasementsAvenue": {
+      "label": "Casements Avenue"
+    },
+    "BreweryRoad": {
+      "label": "Brewery Road"
+    },
+    "RockStreet": {
+      "label": "Rock Street"
+    },
+    "ConnollyPark": {
+      "label": "Connolly Park"
+    },
+    "BrendansPark": {
+      "label": "Brendans Park"
+    },
+    "GortNaGreine": {
+      "label": "Gort Na Greine"
+    },
+    "Mounthawk": {
+      "label": "Mounthawk"
+    },
+    "KnockanishEast": {
+      "label": "Clogherbrien"
+    },
+    "KnockanishWest": {
+      "label": "Knockanish"
+    },
+    "Spa": {
+      "label": "Spa"
+    },
+    "CottersBend": {
+      "label": "Cotters Bend"
+    },
+    "Kilfenora": {
+      "label": "Kilfenora"
+    },
+    "PumpHouse": {
+      "label": "Pump House"
+    },
+    "IslandView": {
+      "label": "Island View"
+    },
+    "FenitNS": {
+      "label": "School"
+    },
+    "Fenit": {
+      "label": "Fenit"
+    },
+    "Kileen": {
+      "label": "Killeen"
+    },
+    "MTUN": {
+      "label": "MTU"
+    },
+    "KTP": {
+      "label": "KTP"
+    },
+    "Ballyroe": {
+      "label": "Ballyroe"
+    },
+    "Ardfert": {
+      "label": "Ardfert"
+    },
+    "Abbeydorney": {
+      "label": "Abbeydorney"
+    },
+    "Lixnaw": {
+      "label": "Lixnaw"
+    },
+    "Listowel": {
+      "label": "Listowel"
+    },
+    "Listowel": {
+      "label": "Listowel"
+    },
+    "Cockleshell": {
+      "label": "Cockleshell"
+    },
+    "LockGates": {
+      "label": "Lock Gates"
+    },
+    "Blennerville": {
+      "label": "Blennerville"
+    },
+    "Basin": {
+      "label": "Basin"
+    },
+    "Wetlands": {
+      "label": "Wetlands"
+    },
+    "Aquadome": {
+      "label": "Aquadome"
+    },
+    "Ballymullen": {
+      "label": "Ballymullen"
+    },
+    "Ballygarry": {
+      "label": "Ballygarry"
+    },
+    "Ballyseedy": {
+      "label": "Ballyseedy"
+    },
+    "CastlemaineRoad": {
+      "label": ""
+    },
+    "Monavalley": {
+      "label": "Monavalley"
+    }
+  },
+  "lines": [
+    {
+      "name": "TraleeFenitTodo",
+      "color": "#d4e2eb",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -22,
+            22
+          ]
+        },
+        {
+          "coords": [
+            -26,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -28,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -34,
+            27
+          ],
+          "name": "KnockanishEast",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -44,
+            27
+          ],
+          "name": "KnockanishWest",
+          "labelPos": "N"
+        }
+      ]
+    },
+    {
+      "name": "LeeValleyTodo1",
+      "color": "#d4e2eb",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -55,
+            27
+          ],
+          "name": "Spa",
+          "labelPos": "N",
+          "marker": "interchange"
+        },
+        {
+          "coords": [
+            -54,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -40,
+            12
+          ]
+        },
+        {
+          "coords": [
+            -39,
+            10
+          ]
+        },
+        {
+          "coords": [
+            -39,
+            -3
+          ]
+        },
+        {
+          "coords": [
+            -38,
+            -4
+          ]
+        },
+        {
+          "coords": [
+            -35,
+            -4
+          ],
+          "name": "LockGates",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -25,
+            -4
+          ],
+          "name": "Blennerville",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            -12,
+            -4
+          ],
+          "name": "Basin",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            -10,
+            -5
+          ]
+        },
+        {
+          "coords": [
+            -8,
+            -6
+          ],
+          "name": "Wetlands",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -4,
+            -6
+          ],
+          "name": "Aquadome",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            6,
+            -6
+          ],
+          "name": "Ballymullen",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            10,
+            -6
+          ]
+        },
+        {
+          "coords": [
+            12,
+            -5
+          ]
+        },
+        {
+          "coords": [
+            23,
+            6
+          ],
+          "name": "Ballygarry",
+          "labelPos": "E",
+          "marker": "interchange"
+        },
+        {
+          "coords": [
+            28,
+            11
+          ],
+          "name": "Ballyseedy",
+          "labelPos": "sE"
+        }
+      ]
+    },
+    {
+      "name": "LeeValley1",
+      "color": "#AB4800",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -39,
+            10
+          ],
+          "name": "Cockleshell",
+          "labelPos": "W"
+        },
+        {
+          "coords": [
+            -39,
+            -3
+          ]
+        },
+        {
+          "coords": [
+            -38,
+            -4
+          ]
+        },
+        {
+          "coords": [
+            -35,
+            -4
+          ],
+          "name": "LockGates",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -25,
+            -4
+          ],
+          "name": "Blennerville",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            -12,
+            -4
+          ],
+          "name": "Basin",
+          "labelPos": "N"
+        }
+      ]
+    },
+    {
+      "name": "LeeValley2",
+      "color": "#AB4800",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -4,
+            -6
+          ],
+          "name": "Aquadome",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            6,
+            -6
+          ],
+          "name": "Ballymullen",
+          "labelPos": "S"
+        }
+      ]
+    },
+    {
+      "name": "BigRiverTodo",
+      "color": "#d4e2eb",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            0,
+            8
+          ]
+        },
+        {
+          "coords": [
+            6,
+            14
+          ],
+          "name": "Kileen",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [
+            8,
+            15
+          ]
+        },
+        {
+          "coords": [
+            9,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GSTTodo",
+      "color": "#d4e2eb",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "shiftNormal": 1,
+      "nodes": [
+        {
+          "coords": [
+            -22,
+            22
+          ]
+        },
+        {
+          "coords": [
+            -32,
+            32
+          ]
+        },
+        {
+          "coords": [
+            -34,
+            33
+          ]
+        },
+        {
+          "coords": [
+            -37,
+            33
+          ],
+          "name": "Ballyroe",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -39,
+            33
+          ]
+        },
+        {
+          "coords": [
+            -41,
+            34
+          ]
+        },
+        {
+          "coords": [
+            -42,
+            36
+          ],
+          "name": "Ardfert",
+          "labelPos": "W"
+        },
+        {
+          "coords": [
+            -42,
+            37
+          ]
+        },
+        {
+          "coords": [
+            -41,
+            39
+          ]
+        },
+        {
+          "coords": [
+            -39,
+            41
+          ],
+          "name": "Abbeydorney",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [
+            -35,
+            45
+          ],
+          "name": "Lixnaw",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [
+            -31,
+            49
+          ],
+          "name": "Listowel",
+          "labelPos": "NW"
+        }
+      ]
+    },
+    {
+      "name": "TraleeFenit1",
+      "color": "#0C6826",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            0,
+            0
+          ],
+          "name": "Tralee",
+          "marker": "interchange",
+          "canonical": true,
+          "labelPos": "SE"
+        },
+        {
+          "coords": [
+            -4,
+            4
+          ],
+          "name": "CasementsAvenue",
+          "marker": "interchange",
+          "labelPos": "sw"
+        },
+        {
+          "coords": [
+            -8,
+            8
+          ],
+          "name": "RockStreet",
+          "labelPos": "sw"
+        },
+        {
+          "coords": [
+            -12,
+            12
+          ],
+          "name": "ConnollyPark",
+          "labelPos": "sw"
+        },
+        {
+          "coords": [
+            -13,
+            13
+          ],
+          "name": "BrendansPark",
+          "labelPos": "NE"
+        },
+        {
+          "coords": [
+            -16,
+            16
+          ],
+          "name": "GortNaGreine",
+          "labelPos": "ne"
+        },
+        {
+          "coords": [
+            -22,
+            22
+          ],
+          "name": "Mounthawk",
+          "labelPos": "SW",
+          "marker": "interchange"
+        }
+      ]
+    },
+    {
+      "name": "TraleeFenit2",
+      "color": "#0C6826",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -44,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -48,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -55,
+            27
+          ],
+          "name": "Spa",
+          "labelPos": "N",
+          "marker": "interchange"
+        },
+        {
+          "coords": [
+            -62,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -64,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -66,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -68,
+            26
+          ],
+          "name": "CottersBend",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [
+            -70,
+            24
+          ]
+        },
+        {
+          "coords": [
+            -72,
+            23
+          ]
+        },
+        {
+          "coords": [
+            -74,
+            23
+          ],
+          "name": "Kilfenora",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -83,
+            23
+          ],
+          "name": "PumpHouse",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            -85,
+            24
+          ]
+        },
+        {
+          "coords": [
+            -87,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -89,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -91,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -93,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -95,
+            24
+          ],
+          "name": "IslandView",
+          "labelPos": "NW"
+        },
+        {
+          "coords": [
+            -97,
+            22
+          ],
+          "name": "FenitNS",
+          "labelPos": "SE"
+        },
+        {
+          "coords": [
+            -98,
+            20
+          ]
+        },
+        {
+          "coords": [
+            -98,
+            18
+          ],
+          "name": "Fenit",
+          "labelPos": "S",
+          "marker": "interchange"
+        }
+      ]
+    },
+    {
+      "name": "Bracker",
+      "color": "#89014C",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -22,
+            22
+          ]
+        },
+        {
+          "coords": [
+            -21,
+            23
+          ]
+        },
+        {
+          "coords": [
+            -18,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -16,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -12,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -10,
+            26
+          ],
+          "name": "Monavalley",
+          "labelPos": "NE"
+        }
+      ]
+    },
+    {
+      "name": "BigRiver",
+      "color": "#2B8DBF",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            -4,
+            4
+          ]
+        },
+        {
+          "coords": [
+            0,
+            8
+          ],
+          "name": "BreweryRoad",
+          "canonical": true,
+          "labelPos": "SE"
+        }
+      ]
+    },
+    {
+      "name": "GST",
+      "color": "#FFFF00",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "shiftNormal": 1,
+      "nodes": [
+        {
+          "coords": [
+            0,
+            0
+          ],
+          "name": "Tralee",
+          "marker": "interchange",
+          "canonical": true,
+          "labelPos": "SE"
+        },
+        {
+          "coords": [
+            -4,
+            4
+          ]
+        },
+        {
+          "coords": [
+            -8,
+            8
+          ],
+          "name": "RockStreet",
+          "labelPos": "sw",
+          "marker": "interchange"
+        },
+        {
+          "coords": [
+            -12,
+            12
+          ],
+          "name": "BrendansPark",
+          "labelPos": "NE"
+        },
+        {
+          "coords": [
+            -16,
+            16
+          ],
+          "name": "GortNaGreine",
+          "labelPos": "ne"
+        },
+        {
+          "coords": [
+            -22,
+            22
+          ],
+          "name": "Mounthawk",
+          "labelPos": "SW",
+          "marker": "interchange"
+        }
+      ]
+    },
+    {
+      "name": "Bypass",
+      "color": "#FF1100",
+      "shiftCoords": [
+        0,
+        0
+      ],
+      "nodes": [
+        {
+          "coords": [
+            9,
+            15
+          ],
+          "name": "MTUN",
+          "labelPos": "N"
+        },
+        {
+          "coords": [
+            11,
+            15
+          ],
+          "name": "KTP",
+          "labelPos": "S"
+        },
+        {
+          "coords": [
+            13,
+            15
+          ]
+        },
+        {
+          "coords": [
+            15,
+            14
+          ]
+        },
+        {
+          "coords": [
+            23,
+            6
+          ]
+        },
+        {
+          "coords": [
+            26,
+            3
+          ]
+        },
+        {
+          "coords": [
+            27,
+            1
+          ]
+        },
+        {
+          "coords": [
+            27,
+            -4
+          ]
+        },
+        {
+          "coords": [
+            26,
+            -6
+          ]
+        },
+        {
+          "coords": [
+            20,
+            -12
+          ],
+          "name": "CastlemaineRoad",
+          "labelPos": "SE"
+        }
+      ]
+    }
+  ]
+}
