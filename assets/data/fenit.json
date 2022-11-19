@@ -54,17 +54,7 @@
   },
   "lines": [
     {
-      "name": "TraleeFenitTodo",
-      "color": "#b3b3b3",
-      "shiftCoords": [
-        0,
-        0
-      ],
-      "nodes": [
-      ]
-    },
-    {
-      "name": "TraleeFenit1",
+      "name": "TraleeFenit",
       "color": "#6b8e23",
       "shiftCoords": [
         0,
