@@ -16,10 +16,13 @@
       "label": "Connolly Park"
     },
     "BrendansPark": {
-      "label": "Brendans Park"
+      "label": "Brendan's Park"
     },
     "GortNaGreine": {
       "label": "Gort Na Greine"
+    },
+    "MounthawkPark": {
+      "label": "Mounthawk Park (Parking)"
     },
     "Mounthawk": {
       "label": "Mounthawk"
@@ -113,50 +116,6 @@
     }
   },
   "lines": [
-    {
-      "name": "TraleeFenitTodo",
-      "color": "#d4e2eb",
-      "shiftCoords": [
-        0,
-        0
-      ],
-      "nodes": [
-        {
-          "coords": [
-            -22,
-            22
-          ]
-        },
-        {
-          "coords": [
-            -26,
-            26
-          ]
-        },
-        {
-          "coords": [
-            -28,
-            27
-          ]
-        },
-        {
-          "coords": [
-            -34,
-            27
-          ],
-          "name": "KnockanishEast",
-          "labelPos": "S"
-        },
-        {
-          "coords": [
-            -44,
-            27
-          ],
-          "name": "KnockanishWest",
-          "labelPos": "N"
-        }
-      ]
-    },
     {
       "name": "LeeValleyTodo1",
       "color": "#d4e2eb",
@@ -499,7 +458,7 @@
       ]
     },
     {
-      "name": "TraleeFenit1",
+      "name": "TraleeFenit",
       "color": "#0C6826",
       "shiftCoords": [
         0,
@@ -551,11 +510,19 @@
         },
         {
           "coords": [
-            -16,
-            16
+            -15,
+            15
           ],
           "name": "GortNaGreine",
           "labelPos": "ne"
+        },
+        {
+          "coords": [
+            -18,
+            18
+          ],
+          "name": "MounthawkPark",
+          "labelPos": "NE"
         },
         {
           "coords": [
@@ -565,22 +532,34 @@
           "name": "Mounthawk",
           "labelPos": "SW",
           "marker": "interchange"
-        }
-      ]
-    },
-    {
-      "name": "TraleeFenit2",
-      "color": "#0C6826",
-      "shiftCoords": [
-        0,
-        0
-      ],
-      "nodes": [
+        },
+        {
+          "coords": [
+            -26,
+            26
+          ]
+        },
+        {
+          "coords": [
+            -28,
+            27
+          ]
+        },
+        {
+          "coords": [
+            -34,
+            27
+          ],
+          "name": "KnockanishEast",
+          "labelPos": "S"
+        },
         {
           "coords": [
             -44,
             27
-          ]
+          ],
+          "name": "KnockanishWest",
+          "labelPos": "N"
         },
         {
           "coords": [
@@ -831,11 +810,19 @@
         },
         {
           "coords": [
-            -16,
-            16
+            -15,
+            15
           ],
           "name": "GortNaGreine",
           "labelPos": "ne"
+        },
+        {
+          "coords": [
+            -18,
+            18
+          ],
+          "name": "MounthawkPark",
+          "labelPos": "NE"
         },
         {
           "coords": [
